@@ -1,0 +1,22 @@
+project: "ERP-PYME-Manufactura (evolución de Propuesta.xlsm / NJ Store)"
+date: "2026-08-17"
+current_phase: "0-Descubrimiento de dominio (real, sobre fuentes primarias) — en curso, no cerrada"
+completed_phases: []
+in_progress: "Cerrar preguntas de negocio abiertas y decidir el estado de D-001 antes de modelar"
+blocked: ["No pasar a /opsx:propose", "No implementar codigo/SQL/formulas definitivas hasta cerrar el modelo de dominio"]
+open_problems:
+  - "Tramos de volumen: 4 nomenclaturas distintas encontradas en las fuentes del negocio, sin corte unico definido para el sistema nuevo"
+  - "Abono 60% vs 70% en pedidos grandes por encargo: no esta confirmado si es regla consciente o vario caso a caso"
+  - "D-001 (atributos genericos configurables): senalada para reconsiderar, pendiente de decision explicita con la duena"
+recent_decisions: ["D-007"]
+deferred: []
+superseded_sources:
+  - "RECETAS_NORMALIZADAS.xlsx: DESCARTADO por la duena del negocio (2026-08-17, 'mal analizado'). No usar como fuente de verdad."
+authoritative_source: "ANALISIS-DOMINIO-FASE0.md"
+files_to_read: ["ANALISIS-DOMINIO-FASE0.md", "DECISIONS.md (ver D-007)", "PROJECT.md", "ARCHITECTURE.md", "DEFERRALS.md"]
+must_preserve_from_original:
+  - "Override por linea de cotizacion (columna 'Unidad Manual' en Propuesta.xlsm) - ausente en el refactor propuesta-COTIZADOR.xlsx"
+  - "Calculo de anidado geometrico de consumo de vinil (ObtenerConsumoVinil en Propuesta.xlsm) - ausente en el refactor"
+do_not_reuse_without_review:
+  - "Cotizador_V1_365.xlsx"
+  - "Cotizador_V1_365.2.xlsx"
