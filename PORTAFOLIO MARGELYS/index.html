@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Margelys Santos — Data Analyst | Excel Application Engineering</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <div class="wrap">
+    <div class="ribbon">
+      <span>portafolio-margelys.xlsx</span>
+    </div>
+
+    <div class="sheet">
+      <div class="hero">
+        <p class="cell-tag">A1</p>
+        <h1>Margelys Santos</h1>
+        <p class="tagline">Ingeniera en Sistemas · Data Analyst · Excel Application Engineering</p>
+
+        <div class="kpis">
+          <div class="kpi">
+            <p class="label">Experiencia</p>
+            <p class="value">12+ <span style="font-size:10px; font-weight:400; opacity:0.6;">años</span></p>
+          </div>
+          <div class="kpi">
+            <p class="label">Clientes atendidos</p>
+            <p class="value">200–300<span style="font-size:10px; font-weight:400; opacity:0.6;">+</span></p>
+          </div>
+          <div class="kpi">
+            <p class="label">Certificaciones</p>
+            <p class="value" style="color:#B8862F;">8</p>
+          </div>
+          <div class="kpi">
+            <p class="label">Especialidad</p>
+            <p class="value" style="font-size:14px;">Excel + VBA</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills-panel">
+      <p class="section-title" style="padding-left:0;">HABILIDADES</p>
+      <div id="skills-chart"></div>
+      <p class="skills-caption">Cada burbuja crece según los proyectos cargados que usan esa herramienta.</p>
+    </div>
+
+    <div class="sheet">
+      <div class="credentials">
+        <span class="badge-gold">🎓 UNEFA · Ing. en Sistemas</span>
+        <span class="badge-gold">Daxus · Dashboards Profesionales</span>
+        <span class="badge-gold">Daxus · Power Pivot</span>
+        <button class="badge-gold" id="cred-toggle-2">+5 certificaciones ▾</button>
+        <div class="cred-extra" id="cred-extra">
+          <span class="badge-outline">Excel Intermedio — Tablas Dinámicas y Power Query</span>
+          <span class="badge-outline">Excel Básico</span>
+          <span class="badge-outline">Fundamentos de Power BI</span>
+          <span class="badge-outline">Primeros Pasos en IA</span>
+          <span class="badge-outline">Comunicación Asertiva</span>
+          <span class="badge-outline">Oratoria</span>
+        </div>
+      </div>
+
+      <p class="section-title" id="proyectos">PROYECTOS</p>
+      <div class="projects-grid" id="proyectos-grid"></div>
+
+      <p class="section-title" id="sobre-mi">SOBRE MÍ</p>
+      <div class="about">
+        <p>Ingeniera en Sistemas graduada de la UNEFA (2012), con más de 12 años de experiencia en análisis de datos, automatización de procesos y gestión tecnológica. Especializada en Excel avanzado (VBA, Power Query, Power Pivot, dashboards) y Power BI.</p>
+        <p>Desde 2017 trabajo como consultora freelance construyendo sistemas de gestión — financieros, de inventario, nómina y facturación — para clientes de educación, salud, RRHH y manufactura, reduciendo procesos de semanas a minutos. Antes lideré operaciones, logística y tecnología en Agrotodo Táchira, y gestión de infraestructura TI en Corpointa.</p>
+      </div>
+
+      <p class="section-title" id="contacto">CONTACTO</p>
+      <div class="contact">
+        <p style="font-size:13.5px; opacity:0.7; max-width:480px;">Disponible para roles remotos de Data Analyst / BI, y proyectos freelance de automatización en Excel.</p>
+        <div class="contact-links">
+          <a href="mailto:Margelys.invermapa@gmail.com">Email</a>
+          <a href="https://wa.me/584262249525" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="tabs">
+      <a href="#proyectos" class="active">Proyectos</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+      <a href="admin.html" aria-label="" style="margin-left:auto; opacity:0.15; padding:7px 10px;">·</a>
+    </nav>
+  </div>
+
+  <script src="assets/config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

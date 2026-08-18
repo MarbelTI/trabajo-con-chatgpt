@@ -1,0 +1,3 @@
+1) Sube index.html y logo-ms.png a Vercel.
+2) Antes de publicar, reemplaza TU_EMAIL_AQUI en index.html por tu email real.
+3) Los textos de proyectos se basan en el portafolio actual y se pueden ampliar con capturas reales de cada Excel.
